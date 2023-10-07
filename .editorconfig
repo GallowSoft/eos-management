@@ -1,0 +1,11 @@
+# Load the .editorconfig file from the .editorconfig file in the solution root
+root = true
+
+# Load the Microsoft C# EditorConfig file
+[*.{cs,vb}]
+# This loads the Microsoft recommended EditorConfig file for C#
+# See https://github.com/dotnet/roslyn/blob/main/.editorconfig
+editorconfig = ../.editorconfig
+
+# Set default charset
+charset = utf-8
